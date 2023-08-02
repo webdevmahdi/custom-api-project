@@ -16,4 +16,7 @@ let minus = (first, second) =>{
         </div>
     )
 }
-export {division, minus};
+export {
+  division, 
+  minus
+};
