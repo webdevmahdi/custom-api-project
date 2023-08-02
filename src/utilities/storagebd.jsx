@@ -57,7 +57,7 @@ let removeItem = id => {
     if(storedCart){
         let shopingCart = JSON.parse(storedCart);
         if(id in shopingCart){
-            delete shopingCart[id];
+             shopingCart[id];
             localStorage.setItem('shoping-cart', JSON.stringify(shopingCart));
         }
     }
