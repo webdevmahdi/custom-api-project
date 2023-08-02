@@ -22,9 +22,6 @@ function Shoes() {
   },[])
   return (
     <div>
-      {/* {
-        users.map(user => <Shoe singleUser={user} key={user._id}></Shoe>)
-      } */}
       {
         users.map(user => <User singleUser={user}></User>)
       }
